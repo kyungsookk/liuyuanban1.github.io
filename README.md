@@ -1,4 +1,7 @@
 # 留言板
+
+<!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -21,42 +24,42 @@
 
     </h1>
 
-    <p><label>
+    <label>
 
       <span>姓名:</span>
 
       <input id="name" type="text" name="name" placeholder="请输入您的姓名" />
 
-    </label></p>
+    </label>
 
-    <p><label>
+    <label>
 
       <span>电话:</span>
 
       <input id="name" type="text" name="name" placeholder="请输入您的电话" />
 
-    </label></p>
-    <p><label>
+    </label>
+    <label>
 
       <span>邮箱:</span>
 
       <input id="email" type="email" name="email" placeholder="请输入您的邮箱" />
 
-    </label></p>
+    </label>
 
 
 
-   <p> <label>
+    <label>
 
       <span>留言:</span>
 
       <textarea id="message" name="message" placeholder="请输入您的留言"></textarea>
 
-    </label></p>
+    </label>
 
     <!--<input type="date" name="date" id="date" placeholder="留言时间"/>&ndash;&gt;-->
 
-    <p><label>
+    <label>
 
       <span>日期:</span>
       <input type="date" name="date" id="date" placeholder="留言时间" />
@@ -66,7 +69,7 @@
 
         <input type="button" class="button" value="Send" />
 
-      </label></p>
+      </label>
 
   </form>
 
