@@ -21,42 +21,42 @@
 
     </h1>
 
-    <label>
+    <p><label>
 
       <span>姓名:</span>
 
       <input id="name" type="text" name="name" placeholder="请输入您的姓名" />
 
-    </label>
+    </label></p>
 
-    <label>
+    <p><label>
 
       <span>电话:</span>
 
       <input id="name" type="text" name="name" placeholder="请输入您的电话" />
 
-    </label>
-    <label>
+    </label></p>
+    <p><label>
 
       <span>邮箱:</span>
 
       <input id="email" type="email" name="email" placeholder="请输入您的邮箱" />
 
-    </label>
+    </label></p>
 
 
 
-    <label>
+   <p> <label>
 
       <span>留言:</span>
 
       <textarea id="message" name="message" placeholder="请输入您的留言"></textarea>
 
-    </label>
+    </label></p>
 
     <!--<input type="date" name="date" id="date" placeholder="留言时间"/>&ndash;&gt;-->
 
-    <label>
+    <p><label>
 
       <span>日期:</span>
       <input type="date" name="date" id="date" placeholder="留言时间" />
@@ -66,7 +66,7 @@
 
         <input type="button" class="button" value="Send" />
 
-      </label>
+      </label></p>
 
   </form>
 
